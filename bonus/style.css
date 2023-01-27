@@ -32,6 +32,8 @@ section, header, footer {
 
 section {
     float: left;
+    border: 1px solid white;
+    height: 300px;
 }
 
 .clearfix:after {
