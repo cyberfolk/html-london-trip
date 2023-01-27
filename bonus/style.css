@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .background {
     height: 100%;
     width: auto;
@@ -19,6 +23,11 @@
     width: 100wh;
     /*Se la togliessi mi basterebbe [RIF]*/
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+section, header, footer {
+    padding: 10px;
+
 }
 
 section {
