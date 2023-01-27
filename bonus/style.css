@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/londra_bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /*relative -> Se non ci fosse, funzionerebbe lo stesso perche l'absolute si riferenzierebbe automaticamente rispetto a body*/
+}
+
+.layover {
+    height: 100vh;
+    width: 100wh;
+    /*Se la togliessi mi basterebbe [RIF]*/
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+section {
+    float: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
